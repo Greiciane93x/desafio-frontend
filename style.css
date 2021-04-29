@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+table  {
+    box-shadow:  0 0 1em white, 0 0 1em gray;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 15%;
+    width: 70%!important;
+    margin-top: 2%;
+
+}
+.main{
+    box-shadow:  0 0 1em white, 0 0 1em grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#DivSearch{
+    background-color:white;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+    height: 40px;
+    margin-top:15px;
+}  
+#search{
+    float:left;
+    background-color:transparent;
+    padding-top:5px;
+    padding-left:15px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+#buscar{
+    width: 20px;;
+    margin-top: 7px!important;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-left: 45%;
+}
+.botoes{
+    display: flex;
+    margin-left:65%;
+}
+#incluir_usuario{
+    background-color:#D83367;
+    width:150px;
+    margin-top:8%;
+    height: 45px;
+    padding:5%;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+#incluir_usuario:hover{
+    transition-delay: 1s;
+}
+#txt_incluir_usuario{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+#status{
+    color: #63CB55;
+}
